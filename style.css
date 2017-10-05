@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.navbar-inverse{
+  margin: 0px;
+  background-color: #39393A;
+  border-color: #39393A;
+}
+.main-header {
+  align-items: center;
+  background: url('./media/trees.jpg') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  position: relative;
+}
+.main-header_content {
+  position: relative;
+  z-index: 10;
+}
+.big-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.site-fill {
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+}
+.logo {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.fa {
+  width: 20px;
+}
+.over_pic {
+  color: #E6E6E6;
+  font-size: 80px;
+}
